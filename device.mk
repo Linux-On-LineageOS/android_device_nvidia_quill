@@ -180,3 +180,4 @@ endif
 
 PRODUCT_PACKAGES += \
     WifiOverlay
+$(call inherit-product, vendor/lindroid/lindroid.mk)
